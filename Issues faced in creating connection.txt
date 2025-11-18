@@ -1,0 +1,9 @@
+How Postgres was connected to Hevo?
+=> We have used ngrok platform to expose our db to hevo. Detailed steps are given in Instructions markdown file.
+
+
+Choices made for transformations
+==> I have decided to do my transformations in SQL. As I was not aware of Hevo Data Platform much so I didn't use the Drag and drop method. And If I wanted to switch in middle of the transformation from Drag and drop to SQL or python then all the transformation has to be done from the start. So I have used SQL to transform the Data.
+
+Any issues/workarounds during setup.
+==> Yes I have faced one major issue while exposing the local posgreSQL db to hevo. I was not sure which platform to use and I was not able to stablish the connection using other free platforms, and ngrok was asking for credit/Debit Card details. So at the end I have decided to move with ngrok and provided my card details to ngrok then I realized it was not charging anything. It was easy but consumed my lot of time.
